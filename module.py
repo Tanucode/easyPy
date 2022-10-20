@@ -292,7 +292,16 @@ def matrix_transpose(matrix1):
                                   u.append(matrix1[j][i])
                          tt.append(u)
                 t=np.array(tt)   # get a transpose of matrix1
-                return t       
+                return t  
+
+
+def largest_element(array,l):       #get a largest element in the array
+  
+    max = array[0]
+    for i in range(1, l):
+        if array[i] > max:
+            max = array[i]
+    return maxd                 
                                                       
 
 
